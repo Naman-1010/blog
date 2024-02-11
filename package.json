@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node blog.js",
+    "dev": "nodemon blog.js",
     "build": "npm i",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
